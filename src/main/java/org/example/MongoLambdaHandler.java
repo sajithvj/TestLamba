@@ -13,7 +13,7 @@ import java.util.Map;
 import static javax.management.Query.eq;
 
 public class MongoLambdaHandler implements RequestHandler<Map<String, Object>, String> {
-    private static final String MONGO_URI = "mongodb+srv://myAtlasDBUser:myatlas-001@myatlasclusteredu.h33zgbz.mongodb.net/?appName=myAtlasClusterEDU";
+    private static final String MONGO_URI = null;
     private static MongoClient mongoClient;
     static  {
         MongoClientSettings settings = MongoClientSettings.builder()
